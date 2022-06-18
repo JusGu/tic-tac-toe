@@ -1,5 +1,5 @@
 ## Rock Paper Scissors
-Play Tic Tac Toe with a friend on the browser!. 
+Play Tic Tac Toe with a friend on the browser!.
 
 ![Screenshot](https://i.imgur.com/1xbD92G.png)
 ## Quick Start
