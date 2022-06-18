@@ -82,6 +82,16 @@ const board = (() => {
                 }
             } else {
                 switchPlayer();
+                let tied = true;
+                for(let i = 0; i < state.length ;i++){
+                    if(state[i][1] == -1 || state[i][2] == -1 || state[i][0] == -1){
+                        tied = false;
+                    }
+                }
+                if(tied){
+                    display.innerHTML = "It's a <b>tie!</b>"
+                    won = true;
+                }
             }
             
         }
